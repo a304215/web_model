@@ -1,0 +1,21 @@
+#header > .header_class a{
+    color: white;
+    text-decoration: none;
+}
+#header > .header_class a:hover{
+    color:gray; 
+    text-decoration:none; 
+}
+#header >.header_class span{
+    color: gray;
+}
+#header > a:last-child{
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+}
+#header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
